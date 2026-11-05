@@ -1,10 +1,10 @@
 # VecturaDB
 
-Vector database compatible with the Chroma API, bringing Chroma Cloud's features to open source.
+Vector database compatible with the Chroma API: the features of Chroma Cloud, that is, of distributed Chroma, on a single node.
 
 ```bash
 pip install VecturaDB
-docker run -p 8000:8000 -v ./data:/data ghcr.io/vecturadb/vecturadb:preview
+docker run -p 127.0.0.1:8000:8000 -v ./data:/data ghcr.io/vecturadb/vecturadb:preview
 ```
 
 | Repository | |
